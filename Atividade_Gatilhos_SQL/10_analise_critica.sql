@@ -1,0 +1,8 @@
+-- Chaves estrangeiras, campos obrigatórios e quantidades positivas devem ficar no banco para garantir integridade.
+-- O banco também deve garantir o bloqueio de reabertura de pedidos pagos e de itens em pedidos cancelados.
+-- A aplicação pode repetir essas validações para apresentar mensagens claras antes de enviar a operação.
+-- O preço do item deve ser definido por uma fonte confiável, evitando manipulação de valores pelo cliente.
+-- Estoque, movimentações e totais precisam ser alterados na mesma transação para manter consistência.
+-- Históricos e auditoria devem ter gravação controlada e permissões contra alterações indevidas.
+-- Formatação, navegação e regras de apresentação podem ficar na aplicação, facilitando manutenção.
+-- Triggers devem ser objetivas e usar consultas indexadas para reduzir custo e duração dos bloqueios.

@@ -1,0 +1,1 @@
+CREATE TABLE historico_status_pedido(id_historico BIGSERIAL PRIMARY KEY,id_pedido INTEGER NOT NULL REFERENCES pedidos(id_pedido),status_anterior VARCHAR(30) NOT NULL,status_novo VARCHAR(30) NOT NULL,alterado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,usuario_bd VARCHAR(100) NOT NULL);

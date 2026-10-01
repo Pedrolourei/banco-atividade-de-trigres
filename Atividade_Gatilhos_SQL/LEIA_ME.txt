@@ -1,0 +1,1 @@
+PostgreSQL. Execute 00 primeiro. Tabelas base devem existir. Testes 01 a 08 estão comentados. Ajuste IDs e colunas ao esquema existente. Confira o nome da trigger antiga no desafio 08. Desafio 09 depende das triggers anteriores e executa ROLLBACK. Desafio 10 contém a resposta em comentários. Scripts não executados em banco.
